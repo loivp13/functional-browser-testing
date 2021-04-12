@@ -16,7 +16,7 @@
             <div class="col-md-8 offset-md-2">
                 <h1 class="text-center mt-3" id="pageTitle">Welcome to the demo Web Page</h1>
 
-                <p class="text-center mt-2">
+                <p class="text-center mt-2" id="pageParagraph">
                     This is a sample text in a paragraph on the page
                 </p>
             </div>
@@ -54,9 +54,7 @@
     let infoDisplay = document.getElementById("infoDisplay");
 
     submitButton.onclick = async function () {
-
         infoDisplay.innerHTML = email.value;
-
     }
 </script>
 </html>
